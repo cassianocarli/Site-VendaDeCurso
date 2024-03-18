@@ -1,0 +1,183 @@
+.bg-fundo {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, .5)), linear-gradient(140deg, #ee0c0c, #ff9659 22%, #d73802 38%, #2b2b2b 57%, #011c34 75%, #000);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-group {
+    position: absolute;
+    left: 95%;
+    transform: translateX(-50%);
+    margin-top: -5%; 
+}
+
+.custom-btn {
+    background-color: white; 
+    color: #fff; 
+    padding: 10px 20px; 
+    margin: 5px; 
+    text-decoration: white; 
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+    color: red; 
+
+}
+
+.custom-btn:focus {
+    outline: none; 
+    box-shadow: none; 
+    color: orange; 
+    border-bottom: 2px solid red; 
+}
+
+#tituloUm{
+    margin-top: 12%;
+    margin-left: -40%;
+    color: white;
+    font-size: 80px;
+}
+
+#tituloDois{
+    margin-top: -6%;
+    margin-left: -45%;
+    color: white;
+    font-size: 80px;
+}
+
+#logo {
+    margin-top: 10%;
+    margin-left: -10%;
+    
+}
+
+#nav{
+    color: white;
+}
+
+#nav:hover{
+    color: #FF7935;
+}
+
+#header {
+    margin-left:29%;
+    margin-top: -3%;
+    font-size: 18px;
+}
+
+#video-cursos{
+    margin-left: 55%;
+    margin-top: -25%;
+    width:560px; 
+    height:315px;
+}
+
+#paragrafoUm{
+    color: #FF9659;
+    font-size: 24px;
+    width: 30vw;
+    margin-left: -93%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+#button{
+    background-color: #EE0C0C;
+    border: none;
+    padding: 15px 23px;
+    font-size: 14px;
+    margin-left: -240%;
+    margin-top: -26%;
+}
+
+#button:hover{
+    margin-top: -35%;
+    transition: 0.8s;
+    box-shadow: -1px 2px 3px 2px rgb(54, 0, 54);
+}
+
+#paragrafo2{
+    color: #FF9659;
+    font-size: 18px;
+    width: 17vw;
+    margin-left: -45%;
+    margin-top: -2%;
+    text-align: justify;
+}
+
+#subtitulo{
+    margin-top: 15%;
+    margin-left: -38%;
+    color: #D73802;
+    font-size: 20px;
+}
+
+#subtituloUm{
+    font-size: 50px;
+    color: white;
+}
+
+#subtituloDois{
+    font-size: 25px;
+    color: #FF7935;
+    margin-top: 10%;
+    margin-left: -67%;
+    text-align: justify;
+}
+
+#coluna1{
+    margin-top: 5%;
+    margin-left: 18%;
+    height: 282px;
+    width: 370.66px;
+    padding: 32px;
+    margin-bottom: 2%;
+    background-color: #181628;
+    border: 1px solid #181628;
+    border-radius: 8px;
+}
+
+#img{
+    border-radius: 100px;
+    background-color: #2b2b2b;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colunas-cursos {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0; 
+    margin-left: 11%;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+#tituloCurso{
+    font-size: 25px;
+    color: white;
+}
+
+#paragrafos{
+    color: #FF7935;
+    font-size: 18px;
+}
+
+#emoji{
+    display: flex;
+    line-height: 32px;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 95x;
+    background-color: #2b2b2b;
+    width: 80px;
+    height: 80px;
+}
